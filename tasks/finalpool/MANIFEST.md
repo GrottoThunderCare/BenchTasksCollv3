@@ -1,8 +1,8 @@
 # Final Pool Manifest
 
-Implemented tasks verified against tasks/examples/example-task requirements (docs/task.md and docs/agent_system_prompt.md must be non-empty and all English; optional user_system_prompt.md, if present, must also be English).
+Implemented tasks verified against `tasks/examples/example-task` requirements: `docs/task.md` and `docs/agent_system_prompt.md` must be non-empty and all English (no Chinese); optional `docs/user_system_prompt.md`, if present, must also be English; the remaining files/folders are checked for existence.
 
-Implemented tasks: 79 (under tasks/finalpool/<task-name>/docs/)
+Implemented tasks: 79 (under `tasks/finalpool/<task-name>/docs/`)
 
 ## fan-dev
 - coupon-manager
@@ -111,42 +111,71 @@ Implemented tasks: 79 (under tasks/finalpool/<task-name>/docs/)
 - storage-manager
 - template-engine
 
-## Implementing tasks (excluded from finalpool): 37
+---
 
-- audit-logger (yuzhen-dev)
-- audio-converter (haoze)
-- api-tester (zhaochen)
-- barcode-scanner (junxian_dev)
-- batch-processor (yuxuan-dev)
-- code-reviewer (xiaochen_dev)
-- comment-moderator (gyy)
-- contact-scorer (lueyang-dev)
-- currency-converter (junxian_dev)
-- document-parser (wenshuo-dev)
-- insights-engine (lv)
-- inventory-tracker (junteng_dev)
-- lead-tracker (lueyang-dev)
-- location-tracker (junxian_dev)
-- markdown-converter (zhaochen)
-- migration-script (xiaochen_dev)
-- monthly-sales-analysis (jl_dev)
-- performance-monitor (wenshuo-dev)
-- pdf-processor (ruige)
-- product-comparator (fan-dev)
-- proxy-server (zhaochen)
-- recommendation-engine (lv)
-- report-generator (ruige)
-- resource-monitor (yuzhen-dev)
-- review-aggregator (fan-dev)
-- seo-optimizer (gyy)
-- session-handler (yuzhen-dev)
-- shopping-cart (fan-dev)
-- test-generator (xiaochen_dev)
-- text-generator placeholder
-- thumbnail-creator (haoze)
-- url-shortener (junxian_dev)
-- weekly-expense-tracker (jl_dev)
-- weather-service (junxian_dev)
-- wishlist-manager (fan-dev)
-- workflow-automation (wenshuo-dev)
-- photo-editor (haoze)
+Implementing tasks (excluded from finalpool): 37
+
+## fan-dev
+- product-comparator
+- review-aggregator
+- shopping-cart
+- wishlist-manager
+
+## gyy
+- comment-moderator
+- seo-optimizer
+
+## haoze
+- audio-converter
+- photo-editor
+- thumbnail-creator
+
+## jl_dev
+- monthly-sales-analysis
+- weekly-expense-tracker
+
+## junteng_dev
+- inventory-tracker
+
+## junxian_dev
+- barcode-scanner
+- currency-converter
+- location-tracker
+- url-shortener
+- weather-service
+
+## lueyang-dev
+- contact-scorer
+- lead-tracker
+
+## lv
+- insights-engine
+- recommendation-engine
+
+## ruige
+- pdf-processor
+- report-generator
+
+## wenshuo-dev
+- document-parser
+- performance-monitor
+- workflow-automation
+
+## xiaochen_dev
+- code-reviewer
+- migration-script
+- test-generator
+
+## yuxuan-dev
+- batch-processor
+- queue-manager
+
+## yuzhen-dev
+- audit-logger
+- resource-monitor
+- session-handler
+
+## zhaochen
+- api-tester
+- markdown-converter
+- proxy-server
